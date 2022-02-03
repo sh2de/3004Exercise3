@@ -24,7 +24,7 @@ public class main {
 			} else {
 				p1.size = "Large";
 			}
-			System.out.println("What crust do you want? Thin(1) Thick(2)?");
+
 			input = x.nextLine();
 			if (input.equals("1")) {
 				p1.crust = "Thin";
